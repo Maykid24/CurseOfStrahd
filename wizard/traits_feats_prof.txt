@@ -1,0 +1,17 @@
+-- Traits --
+
+
+
+-- Feats --
+
+
+
+-- Proficiencies --
+
+Armor: None
+Weapons: Dagger, Darts, Slings, Quarterstaffs, Light Crossbows
+Tools: None
+Saving Throws: Intelligence, Wisdom
+Skills: Arcana, Investigation
+
+

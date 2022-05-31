@@ -1,0 +1,14 @@
+-- Equipment --
+
+- Quarterstaff or Dagger
+- Arcane Focus
+- Scholar's Pack
+    - Backpack
+    - Book of Lore
+    - A bottle of Ink
+    - Ink Pen
+    - 10 Sheets of Parchment
+    - Little bag of sand
+    - Small Knife
+
+- Spellbook
