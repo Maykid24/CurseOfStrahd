@@ -1,6 +1,6 @@
--- Equipment --
+--**-- Equipment --**--
 
-- Quarterstaff or Dagger
+- Dagger
 - Arcane Focus
 - Scholar's Pack
     - Backpack

@@ -1,15 +1,23 @@
--- Spells --
+--**-- Spells --**--
 
 Number of Spells = Int Mod + Wizard Level
 Can change spells after Long Rest
 
+Each time you gain a level, you can add two wizard spells of your choice to your spellbook for free
+
+Total # of Spells known:
 
 
-Cantrip - 3
--
--
--
+Cantrip: 3
+- Green-Flame Blade
+    + INT Modifier
+- Mending
+- Firebolt
 
-Level 1 - 2
--
--
+Level 1: 2
+- Shield
+- Alarm
+- Find Familiar
+- Magic Missile
+- Expeditious Retreat
+- Detect Magic
