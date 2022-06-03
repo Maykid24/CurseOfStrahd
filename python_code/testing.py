@@ -1,6 +1,5 @@
+"""This page is for testing of any type of Python scripting that needs to be accomplished"""
 import python_code.dnd_character_sheet.Ability_Modifier_Calc as Ability_Modifier
-
-dnd_dice = ['d4', 'd6', 'd8', 'd10', 'd12', 'd20', 'd100']
 
 
 CharAbilityRaw = {
@@ -65,3 +64,13 @@ CharSkills = {
     'sleight_of_hand': CharModifier.get('dex_modifier'),
     'survival': CharModifier.get('wis_modifier')
 }
+
+
+# for key, value in CharSkills.items():
+#     print(key, ':', value)
+
+user_input = input("What skill would you like to see: ")
+
+for k, v in CharSkills.items():
+    if k == user_input:
+        print(k, v)
