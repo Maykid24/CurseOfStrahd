@@ -4,20 +4,21 @@ dnd_dice = ['d4', 'd6', 'd8', 'd10', 'd12', 'd20', 'd100']
 
 
 CharAbilityRaw = {
-    'str_ability': 10,
-    'dex_ability': 16,
-    'con_ability': 17,
-    'int_ability': 20,
-    'wis_ability': 14,
-    'cha_ability': 8
+    'str_ability': 9,
+    'dex_ability': 17,
+    'con_ability': 16,
+    'int_ability': 18,
+    'wis_ability': 12,
+    'cha_ability': 12
 }
 
 CharMainStats = {
     'hit_dice': 'd6',
-    'hit_points': 6,
+    'hit_points': 9,
     'character_level': 1,
     'speed': 30,
     'prof_bonus': 2,
+    'initiative': 3,
     'attack_modifier': 0
 }
 

@@ -13,3 +13,4 @@
     - Quill
 
 - Spellbook
+- Bag of Holding

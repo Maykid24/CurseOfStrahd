@@ -53,6 +53,10 @@ Common
 Elvish
 Undercommon
 Abyssal
+Infernal
+Celestial
+Deep Speech
+Primordial
 
 
 --**-- Background --**--
