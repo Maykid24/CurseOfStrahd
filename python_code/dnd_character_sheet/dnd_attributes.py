@@ -14,7 +14,7 @@ CharAbilityRaw = {
 
 CharMainStats = {
     'hit_dice': 'd6',
-    'hit_points': 0,
+    'hit_points': 6,
     'character_level': 1,
     'speed': 30,
     'prof_bonus': 2,

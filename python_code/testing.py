@@ -1,5 +1,6 @@
 """This page is for testing of any type of Python scripting that needs to be accomplished"""
 import python_code.dnd_character_sheet.Ability_Modifier_Calc as Ability_Modifier
+import python_code.dnd_character_sheet.dnd_attributes as da
 
 
 # CharAbilityRaw = {
@@ -74,3 +75,27 @@ import python_code.dnd_character_sheet.Ability_Modifier_Calc as Ability_Modifier
 # for k, v in CharSkills.items():
 #     if k == user_input:
 #         print(k, v)
+
+def initiative_hp():
+    base_hp = [da.CharMainStats.get('hit_points')]
+    while True:
+        user_input = input('Do you want to Add or Sub from HP? ').lower()
+        if user_input == 'add':
+            add_hp = int(input('How much would you like to add? '))
+            print(base_hp, add_hp)
+            new_hp = base_hp[-1] + add_hp
+            base_hp.append(new_hp)
+            print(base_hp)
+        elif user_input == 'sub':
+            sub_hp = int(input('How much would you like to sub? '))
+            print(base_hp, sub_hp)
+            new_hp = base_hp[-1] - sub_hp
+            base_hp.append(new_hp)
+            print(base_hp)
+        else:
+            break
+
+
+
+initiative_hp()
+

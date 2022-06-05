@@ -1,0 +1,6 @@
+--**-- Money --**--
+    Copper:
+    Silver:
+    Gold: 10gp
+    Platinum:
+

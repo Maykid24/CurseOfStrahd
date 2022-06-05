@@ -1,3 +1,22 @@
+--**-- Race Ability Stats --**--
+Elf:
+    Ability Score Increase: Dex + 2
+
+Shadar Kai:
+    Ability Score Increase: Con + 1
+
+
+
+--**-- Proficiencies --**--
+
+Armor: None
+Weapons: Dagger, Darts, Slings, Quarterstaffs, Light Crossbows
+Tools: None
+Saving Throws: Intelligence, Wisdom
+Skills: Arcana (Background), History (Background), Insight, Investigation
+
+
+
 --**-- Traits --**--
 Darkvision
     - Up to 60 feet
@@ -33,18 +52,27 @@ Necrotic Resistance
 Common
 Elvish
 Undercommon
+Abyssal
+
+
+--**-- Background --**--
+Sage
+    You spent years learning the lore of the multiverse. You scoured manuscripts, studied scrolls, and listened to the
+    greatest experts on the subjects that interest you. Your efforts have made you master in your fields of study
+
+    Skill Proficiency: Arcana, History
+    Languages: Two of your choice
+    Equipment:
+        Bottle of black ink
+        A quill
+        Small knife
+        A letter from a dead colleague posing a question you have not been able to answer
+        Set of common clothes
+        Pouch containing 10gp
+    Specialty:
+        Wizard's Apprentice
 
 
 --**-- Feats --**--
-
-
-
---**-- Proficiencies --**--
-
-Armor: None
-Weapons: Dagger, Darts, Slings, Quarterstaffs, Light Crossbows
-Tools: None
-Saving Throws: Intelligence, Wisdom
-Skills: Arcana, Investigation
 
 

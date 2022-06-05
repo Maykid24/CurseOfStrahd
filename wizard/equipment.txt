@@ -1,14 +1,15 @@
 --**-- Equipment --**--
 
 - Dagger
-- Arcane Focus
+- Arcane Focus - Pendant of a Raven
 - Scholar's Pack
     - Backpack
     - Book of Lore
-    - A bottle of Ink
+    - x2 bottle of Ink
     - Ink Pen
     - 10 Sheets of Parchment
     - Little bag of sand
-    - Small Knife
+    - x2 Small Knife
+    - Quill
 
 - Spellbook
