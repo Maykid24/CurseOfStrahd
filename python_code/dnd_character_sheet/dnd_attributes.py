@@ -9,7 +9,7 @@ CharAbilityRaw = {
     'con_ability': 16,
     'int_ability': 18,
     'wis_ability': 12,
-    'cha_ability': 12
+    'cha_ability': 12,
 }
 
 CharMainStats = {
@@ -19,7 +19,6 @@ CharMainStats = {
     'speed': 30,
     'prof_bonus': 2,
     'initiative': 3,
-    'attack_modifier': 0
 }
 
 CharModifier = {
@@ -28,14 +27,16 @@ CharModifier = {
     'con_modifier': Ability_Modifier.ability_score(CharAbilityRaw.get('con_ability')),
     'int_modifier': Ability_Modifier.ability_score(CharAbilityRaw.get('int_ability')),
     'wis_modifier': Ability_Modifier.ability_score(CharAbilityRaw.get('wis_ability')),
-    'cha_modifier': Ability_Modifier.ability_score(CharAbilityRaw.get('cha_ability'))
+    'cha_modifier': Ability_Modifier.ability_score(CharAbilityRaw.get('cha_ability')),
 }
 
 CharSecondaryStats = {
     'armor_class': 10 + CharModifier.get('dex_modifier'),
     'passive_perception': 10 + CharModifier.get('wis_modifier'),
     'spell_attack': CharMainStats.get('prof_bonus') + CharModifier.get('int_modifier'),
-    'spell_dc': 8 + CharMainStats.get('prof_bonus') + CharModifier.get('int_modifier')
+    'spell_dc': 8 + CharMainStats.get('prof_bonus') + CharModifier.get('int_modifier'),
+    'attack_modifier_str': CharMainStats.get('prof_bonus') + CharModifier.get('str_modifier'),
+    'attack_modifier_dex': CharMainStats.get('prof_bonus') + CharModifier.get('dex_modifier'),
 }
 
 CharSaving = {
@@ -44,7 +45,7 @@ CharSaving = {
     'con_saving': CharModifier.get('con_modifier'),
     'int_saving': CharModifier.get('int_modifier') + CharMainStats.get('prof_bonus'),
     'wis_saving': CharModifier.get('wis_modifier') + CharMainStats.get('prof_bonus'),
-    'cha_saving': CharModifier.get('cha_modifier')
+    'cha_saving': CharModifier.get('cha_modifier'),
 }
 
 CharSkills = {
@@ -53,7 +54,7 @@ CharSkills = {
     'arcana': CharModifier.get('int_modifier') + CharMainStats.get('prof_bonus'),
     'athletics': CharModifier.get('str_modifier'),
     'deception': CharModifier.get('cha_modifier'),
-    'history': CharModifier.get('int_modifier'),
+    'history': CharModifier.get('int_modifier') + CharMainStats.get('prof_bonus'),
     'insight': CharModifier.get('wis_modifier'),
     'intimidation': CharModifier.get('cha_modifier'),
     'investigation': CharModifier.get('int_modifier') + CharMainStats.get('prof_bonus'),
@@ -64,5 +65,17 @@ CharSkills = {
     'persuasion': CharModifier.get('cha_modifier'),
     'religion': CharModifier.get('int_modifier'),
     'sleight_of_hand': CharModifier.get('dex_modifier'),
-    'survival': CharModifier.get('wis_modifier')
+    'survival': CharModifier.get('wis_modifier'),
+}
+
+CharSpells = {
+    'Level 1': 2,
+    'Level 2': 0,
+    'Level 3': 0,
+    'Level 4': 0,
+    'Level 5': 0,
+    'Level 6': 0,
+    'Level 7': 0,
+    'Level 8': 0,
+    'Level 9': 0,
 }
