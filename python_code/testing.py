@@ -135,7 +135,8 @@ from python_code.lists.main_page_lists import spell_list as sl
 # spell_count()
 
 def test_print_dict():
-    final_dict = {k:v for d in (dnd_attributes.CharMainStats, dnd_attributes.CharModifier) for k, v in d.items()}
+    final_dict = {key: value for d in (dnd_attributes.CharMainStats, dnd_attributes.CharModifier) for key, value in
+                  d.items()}
     for key, value in final_dict.items():
         print(key + ':', value)
 

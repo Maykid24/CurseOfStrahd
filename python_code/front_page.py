@@ -2,10 +2,13 @@
    Will also update this page so the user may choose very quickly what they are trying to do without slowing down the
    group."""
 
+import random
+
 import python_code.dnd_character_sheet.dnd_attributes as dnd_attributes
 
 from python_code.lists.main_page_lists import main_list
 from python_code.lists.main_page_lists import dnd_attribute_list
+from python_code.lists.main_page_lists import dnd_dice
 
 
 def stats():
@@ -110,6 +113,67 @@ def spell_count():
             break
 
 
+def roll_dice():
+    dice = input("What would you like to roll? d4, d6, d8, d10, d12, d20, or a d100? ")
+    while dice not in dnd_dice:
+        print("Please enter one of the following dice: d4, d6, d8, d10, d12, d20, d100")
+        dice = input("Please enter dnd dice: ")
+    print("Rolling...")
+    die = int(dice[1:])
+    roll = random.randint(1, die)
+    print(roll)
+
+    proceed = input("Would you like to roll another set or go back? ").lower()
+
+    if proceed == "yes":
+        dice_input()
+    elif proceed == "back":
+        front_page_def()
+    else:
+        print("Good Luck")
+
+
+def roll_many_dice():
+    while True:
+        try:
+            dice_number = int(input("How many dice would you like to roll: "))
+            break
+        except ValueError:
+            print("Please enter a valid number")
+    dice = input("What would you like to roll? d4, d6, d8, d10, d12, d20, or a d100? ")
+    while dice not in dnd_dice:
+        print("Please enter one of the following dice: d4, d6, d8, d10, d12, d20, d100")
+        dice = input("Please enter dnd dice: ")
+    die = int(dice[1:])
+    individual_dice = []
+    sum_roll = 0
+    for i in range(int(dice_number)):
+        roll = random.randint(1, die)
+        individual_dice.append(roll)
+        sum_roll = sum_roll + roll
+    print(*individual_dice, sep=', ')
+    print("Overall Total: ", sum_roll)
+
+    proceed = input("Would you like to roll another set or back? ").lower()
+
+    if proceed == "yes":
+        dice_input()
+    elif proceed == "back":
+        front_page_def()
+    else:
+        print("Good Luck")
+
+
+def dice_input():
+    while True:
+        user_results = input("Are you looking to roll "'"many"'" dice, or "'"single"'" dice? ").lower()
+        if user_results == "single":
+            roll_dice()
+        elif user_results == "many":
+            roll_many_dice()
+        break
+
+
 def front_page_def():
     print(*main_list, sep=', ')
     user_input = input('What would you like to do? ')
@@ -119,6 +183,8 @@ def front_page_def():
         health_points()
     elif user_input == 'spells':
         spell_count()
+    elif user_input == 'dice roll':
+        dice_input()
 
 
 front_page_def()

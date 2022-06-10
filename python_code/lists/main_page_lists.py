@@ -13,7 +13,8 @@ dnd_attribute_list = [
 main_list = [
     'attributes',
     'health points',
-    'spells'
+    'spells',
+    'dice roll'
 ]
 
 spell_list = [
@@ -29,3 +30,5 @@ spell_list = [
     'reset',
     'values',
 ]
+
+dnd_dice = ['d4', 'd6', 'd8', 'd10', 'd12', 'd20', 'd100']
