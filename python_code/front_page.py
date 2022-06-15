@@ -109,6 +109,7 @@ def spell_count():
             new_spell_dict = dict((k.lower(), v) for k, v in dnd_attributes.CharSpells.items())
         elif spell_input == 'back':
             front_page_def()
+            break
         else:
             break
 
@@ -174,16 +175,30 @@ def dice_input():
         break
 
 
+def banner_text(text):
+    screen_width = 80
+    if len(text) > screen_width - 4:
+        print("Text is too long")
+
+    if text == "*":
+        print("*" * screen_width)
+    else:
+        output_string = "**{0}**".format(text.center(screen_width - 4))
+        print(output_string)
+
+
 def front_page_def():
-    print(*main_list, sep=', ')
+    banner_text('*')
+    print(*main_list, sep='|'.center(14))
+    banner_text('*')
     user_input = input('What would you like to do? ')
-    if user_input == 'attributes':
+    if user_input.lower() == 'attributes':
         stats()
-    elif user_input == 'health points':
+    elif user_input.lower() == 'health points':
         health_points()
-    elif user_input == 'spells':
+    elif user_input.lower() == 'spells':
         spell_count()
-    elif user_input == 'dice roll':
+    elif user_input.lower() == 'dice roll':
         dice_input()
 
 

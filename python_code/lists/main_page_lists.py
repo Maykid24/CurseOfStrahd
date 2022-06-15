@@ -11,10 +11,10 @@ dnd_attribute_list = [
 ]
 
 main_list = [
-    'attributes',
-    'health points',
-    'spells',
-    'dice roll'
+    'Attributes',
+    'Health Points',
+    'Spells',
+    'Dice Roll'
 ]
 
 spell_list = [
