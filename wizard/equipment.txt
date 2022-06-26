@@ -14,3 +14,7 @@
 
 - Spellbook
 - Bag of Holding
+- Long Sword
+    - 1d8
+- Short sword
+    - 1d6

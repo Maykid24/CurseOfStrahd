@@ -14,8 +14,8 @@ CharAbilityRaw = {
 
 CharMainStats = {
     'hit_dice': 'd6',
-    'hit_points': 9,
-    'character_level': 1,
+    'hit_points': 18,
+    'character_level': 2,
     'speed': 30,
     'prof_bonus': 2,
     'initiative': 3,
@@ -32,7 +32,7 @@ CharModifier = {
 
 CharSecondaryStats = {
     'armor_class': 10 + CharModifier.get('dex_modifier'),
-    'passive_perception': 10 + CharModifier.get('wis_modifier'),
+    'passive_perception': 10 + CharModifier.get('wis_modifier') + CharMainStats.get('prof_bonus'),
     'spell_attack': CharMainStats.get('prof_bonus') + CharModifier.get('int_modifier'),
     'spell_dc': 8 + CharMainStats.get('prof_bonus') + CharModifier.get('int_modifier'),
     'attack_modifier_str': CharMainStats.get('prof_bonus') + CharModifier.get('str_modifier'),
@@ -61,15 +61,16 @@ CharSkills = {
     'medicine': CharModifier.get('wis_modifier'),
     'nature': CharModifier.get('int_modifier'),
     'perception': CharModifier.get('wis_modifier') + CharMainStats.get('prof_bonus'),
-    'performance': CharModifier.get('cha_modifier'),
+    'performance': CharModifier.get('cha_modifier') + CharMainStats.get('prof_bonus'),
     'persuasion': CharModifier.get('cha_modifier'),
     'religion': CharModifier.get('int_modifier'),
     'sleight_of_hand': CharModifier.get('dex_modifier'),
+    'stealth': CharModifier.get('dex_modifier'),
     'survival': CharModifier.get('wis_modifier'),
 }
 
 CharSpells = {
-    'Level 1': 2,
+    'Level 1': 3,
     'Level 2': 0,
     'Level 3': 0,
     'Level 4': 0,
