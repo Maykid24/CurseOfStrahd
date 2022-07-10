@@ -10,7 +10,7 @@ Shadar Kai:
 --**-- Proficiencies --**--
 
 Armor: Light Armor
-Weapons: Dagger, Darts, Slings, Quarterstaffs, Light Crossbows,
+Weapons: Dagger, Darts, Slings, Quarterstaffs, Light Crossbows, Rapier
 Tools: None
 Saving Throws: Intelligence, Wisdom
 Skills: Arcana (Background), History (Background), Insight, Investigation, Performance

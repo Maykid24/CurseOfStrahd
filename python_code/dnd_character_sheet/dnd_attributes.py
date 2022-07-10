@@ -17,6 +17,7 @@ CharMainStats = {
     'hit_points': 18,
     'character_level': 2,
     'speed': 30,
+    'blade_speed': 40,
     'prof_bonus': 2,
     'initiative': 3,
 }
@@ -32,6 +33,7 @@ CharModifier = {
 
 CharSecondaryStats = {
     'armor_class': 10 + CharModifier.get('dex_modifier'),
+    'blade_armor_class': 10 + CharModifier.get('dex_modifier') + CharModifier.get('int_modifier'),
     'passive_perception': 10 + CharModifier.get('wis_modifier') + CharMainStats.get('prof_bonus'),
     'spell_attack': CharMainStats.get('prof_bonus') + CharModifier.get('int_modifier'),
     'spell_dc': 8 + CharMainStats.get('prof_bonus') + CharModifier.get('int_modifier'),
