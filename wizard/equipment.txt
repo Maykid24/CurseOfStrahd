@@ -18,3 +18,29 @@
     - 1d8
 - Short sword
     - 1d6
+
+(For each level of the spell, the process takes 2 hours and costs 50gp of material)
+- Spell Book (Need to copy over to other Spell Book)
+        - 1st Level Spells:
+            - Identify
+            - Magic Missile
+            - Disguise Self
+            - Mage Armor
+            - Protection from Good and Evil
+        - 2nd Level Spells:
+            - Darkvision
+            - Hold Person
+            - Invisibility
+            - Magic Weapon
+
+
+--**-- MISC --**--
+
+
+
+--**-- Money --**--
+
+    Copper - 0
+    Silver - 0
+    Gold   - 10
+    Plat   - 0

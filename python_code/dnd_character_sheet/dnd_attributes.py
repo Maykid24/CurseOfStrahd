@@ -72,8 +72,8 @@ CharSkills = {
 }
 
 CharSpells = {
-    'Level 1': 3,
-    'Level 2': 0,
+    'Level 1': 4,
+    'Level 2': 2,
     'Level 3': 0,
     'Level 4': 0,
     'Level 5': 0,

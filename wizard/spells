@@ -9,15 +9,19 @@ Total # of Spells known:
 
 
 Cantrip: 3
-- Green-Flame Blade
-    + INT Modifier
-- Mending
-- Firebolt
+    - Green-Flame Blade
+        + INT Modifier
+    - Mending
+    - Firebolt
 
-Level 1: 3
-- Shield
-- Alarm (R)
-- Find Familiar (R)
-- Magic Missile
-- Expeditious Retreat
-- Detect Magic (R)
+Level 1: 4
+    - Shield
+    - Alarm (R)
+    - Find Familiar (R)
+    - Magic Missile
+    - Expeditious Retreat
+    - Detect Magic (R)
+
+Level 2: 2
+    - Flock of Familiars
+    - Vortex Warp
