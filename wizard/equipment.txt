@@ -1,13 +1,16 @@
 --**-- Equipment --**--
 
+Scribing Spells - 0.5 Bottle Ink & 4 Sheets of Parchment
+Multiply by Level of spell trying to scribe
+
 - Dagger
 - Arcane Focus - Pendant of a Raven
 - Scholar's Pack
     - Backpack
     - Book of Lore
-    - x2 bottle of Ink
+    - x1 bottle of Ink
     - Ink Pen
-    - 10 Sheets of Parchment
+    - 2 Sheets of Parchment
     - Little bag of sand
     - x2 Small Knife
     - Quill
@@ -22,9 +25,9 @@
 (For each level of the spell, the process takes 2 hours and costs 50gp of material)
 - Spell Book (Need to copy over to other Spell Book)
         - 1st Level Spells:
-            - Identify
-            - Magic Missile
-            - Disguise Self
+            - Identify (Transcribed)
+            - Magic Missile (Known)
+            - Disguise Self (Transcribed)
             - Mage Armor
             - Protection from Good and Evil
         - 2nd Level Spells:
@@ -36,11 +39,34 @@
 
 --**-- MISC --**--
 
+Urn of Ashes
+    - Once perday, as an action you may open the urn and summon the spirit of your deceased relative. The spirit has
+        the stats of the Spector. Once summoned roll a d100, at a 50% the spirit is summoned hostile towards you until
+        it is defeated or its time of summoning expires, otherwise it is friendly, and remains on the material plane
+        for 1 minute
+
+
+--**-- Attunements --**--
+
+- Cloak of Protection
+
+
+--**-- Potions --**--
+
+- Mess Kit
+- Potion of Health
+
+
+--**-- Things to Sell --**--
+
+- Chain Shirt
+- Leather Armor (Too little for me)
+
 
 
 --**-- Money --**--
 
     Copper - 0
     Silver - 0
-    Gold   - 10
+    Gold   - 5
     Plat   - 0

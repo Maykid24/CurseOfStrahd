@@ -31,6 +31,7 @@ Timzoes - Mike
 
 - Found:
     - Cloak - Arcanic Symbols itched into it (Kept)
+        - Cloak of Protection
     - x1 Vial of Potion of Healing
     - Chain Shirt (Kept)
     - Mess Kit (Kept)
@@ -53,7 +54,15 @@ Timzoes - Mike
     - Deceased Uncles name on it
     - Urn of Ashes
     - Description:
-        -
+        - Once perday, as an action you may open the urn and summon the spirit of your deceased relative. The spirit has
+                 the stats of the Spector. Once summoned roll a d100, at a 50% the spirit is summoned hostile towards you until
+                 it is defeated or its time of summoning expires, otherwise it is friendly, and remains on the material plane
+                 for 1 minute
 
 - Current HP: 16
 - Current Bladesinger: 1
+
+
+--**-- 7/16/2022 --**--
+
+
