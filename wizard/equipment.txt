@@ -8,19 +8,25 @@ Multiply by Level of spell trying to scribe
 - Scholar's Pack
     - Backpack
     - Book of Lore
-    - x1 bottle of Ink
+    - x0 bottle of Ink
     - Ink Pen
-    - 2 Sheets of Parchment
+    - x20 Sheets of Parchment
     - Little bag of sand
     - x2 Small Knife
     - Quill
 
 - Spellbook
 - Bag of Holding
-- Long Sword
+    - Current Weight:
+        256LBS
+    - Containing:
+        x2 Rapiers
+        x2000 Arrows
+        x2000 Bolts
+        x1 Short Bow
+
+- Rapier
     - 1d8
-- Short sword
-    - 1d6
 
 (For each level of the spell, the process takes 2 hours and costs 50gp of material)
 - Spell Book (Need to copy over to other Spell Book)
@@ -32,8 +38,8 @@ Multiply by Level of spell trying to scribe
             - Protection from Good and Evil
         - 2nd Level Spells:
             - Darkvision
-            - Hold Person
-            - Invisibility
+            - Hold Person (Transcribed)
+            - Invisibility (Transcribed)
             - Magic Weapon
 
 
@@ -51,22 +57,25 @@ Urn of Ashes
 - Cloak of Protection
 
 
+--**-- Armor --**--
+
+- Studded Leather Armor
+
+
+
 --**-- Potions --**--
 
-- Mess Kit
 - Potion of Health
 
 
 --**-- Things to Sell --**--
 
-- Chain Shirt
-- Leather Armor (Too little for me)
 
 
 
 --**-- Money --**--
 
     Copper - 0
-    Silver - 0
-    Gold   - 5
-    Plat   - 0
+    Silver - 1
+    Gold   - 7
+    Plat   - 37

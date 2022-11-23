@@ -10,15 +10,15 @@ CharAbilityRaw = {
     'str_ability': 9,
     'dex_ability': 17,
     'con_ability': 16,
-    'int_ability': 18,
+    'int_ability': 20,
     'wis_ability': 12,
     'cha_ability': 12,
 }
 
 CharMainStats = {
     'hit_dice': 'd6',
-    'hit_points': 18,
-    'character_level': 3,
+    'hit_points': 35,
+    'character_level': 4,
     'speed': 30,
     'blade_speed': 40,
     'prof_bonus': 2,
@@ -35,8 +35,9 @@ CharModifier = {
 }
 
 CharSecondaryStats = {
-    'armor_class': 10 + CharModifier.get('dex_modifier') + EquipmentStats.get('cloak_of_protection'),
-    'blade_armor_class': 10 + CharModifier.get('dex_modifier') + CharModifier.get('int_modifier'),
+    'armor_class': 12 + CharModifier.get('dex_modifier') + EquipmentStats.get('cloak_of_protection'),
+    'blade_armor_class': 12 + CharModifier.get('dex_modifier') + CharModifier.get('int_modifier')
+                            + EquipmentStats.get('cloak_of_protection'),
     'passive_perception': 10 + CharModifier.get('wis_modifier') + CharMainStats.get('prof_bonus'),
     'spell_attack': CharMainStats.get('prof_bonus') + CharModifier.get('int_modifier'),
     'spell_dc': 8 + CharMainStats.get('prof_bonus') + CharModifier.get('int_modifier'),
@@ -48,8 +49,10 @@ CharSaving = {
     'str_saving': CharModifier.get('str_modifier') + EquipmentStats.get('cloak_of_protection'),
     'dex_saving': CharModifier.get('dex_modifier') + EquipmentStats.get('cloak_of_protection'),
     'con_saving': CharModifier.get('con_modifier') + EquipmentStats.get('cloak_of_protection'),
-    'int_saving': CharModifier.get('int_modifier') + CharMainStats.get('prof_bonus') + EquipmentStats.get('cloak_of_protection'),
-    'wis_saving': CharModifier.get('wis_modifier') + CharMainStats.get('prof_bonus') + EquipmentStats.get('cloak_of_protection'),
+    'int_saving': CharModifier.get('int_modifier') + CharMainStats.get('prof_bonus') + EquipmentStats.get(
+        'cloak_of_protection'),
+    'wis_saving': CharModifier.get('wis_modifier') + CharMainStats.get('prof_bonus') + EquipmentStats.get(
+        'cloak_of_protection'),
     'cha_saving': CharModifier.get('cha_modifier') + EquipmentStats.get('cloak_of_protection'),
 }
 
@@ -76,7 +79,7 @@ CharSkills = {
 
 CharSpells = {
     'Level 1': 4,
-    'Level 2': 2,
+    'Level 2': 3,
     'Level 3': 0,
     'Level 4': 0,
     'Level 5': 0,

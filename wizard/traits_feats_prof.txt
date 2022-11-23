@@ -10,7 +10,7 @@ Shadar Kai:
 --**-- Proficiencies --**--
 
 Armor: Light Armor
-Weapons: Dagger, Darts, Slings, Quarterstaffs, Light Crossbows, Long Sword
+Weapons: Dagger, Darts, Slings, Quarterstaffs, Light Crossbows, Rapier
 Tools: None
 Saving Throws: Intelligence, Wisdom
 Skills: Arcana (Background), History (Background), Insight, Investigation, Performance
@@ -109,7 +109,7 @@ Sage
 
 
 --**-- Attack Mod --**--
-- Long Sword
+- Rapier
     - Attack: d20 + Dex Mod + Prof. Bonus
     - Damage: 1d8 + Dex Mod
 
